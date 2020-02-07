@@ -21,13 +21,15 @@ class App extends Component {
 				clicked: this.state.clicked.concat(id),
 				score: this.state.score + 1
 			});
-			console.log(this.state.score);
+			console.log(`score: ${this.state.score}`);
+			console.log(`high score: ${this.state.highScore}`);
 		} else {
 			this.setState({
 				clicked: [],
 				score: 0
 			});
 		}
+		this.setHighScore();
 		this.shuffle();
 	};
 
@@ -41,10 +43,16 @@ class App extends Component {
 		}
 	}
 
+	setHighScore() {
+		if (this.state.score >= this.state.highScore) {
+			this.setState({ highScore: this.state.score });
+		}
+	}
+
 	render() {
 		return (
 			<div>
-				<Navbar>Clicky Game!</Navbar>
+				<Navbar score={this.state.score} highScore={this.state.highScore} />
 				<Jumbotron>Clicky Game!</Jumbotron>
 				<Wrapper>
 					{this.state.characters.map(char => (
