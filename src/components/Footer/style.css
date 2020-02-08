@@ -1,5 +1,5 @@
 .footer {
-	background: #343a40;
+	background: black;
 	height: 30;
 	position: relative;
 	top: 75px;
@@ -7,6 +7,7 @@
 	padding: 15px;
 	overflow: auto;
 	font-weight: bold;
+	text-align: right;
 }
 
 #logo {
