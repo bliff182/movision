@@ -8,7 +8,7 @@ function Navbar(props) {
 			<span className="navbar-brand mb-0 h1">Click an image to begin!</span>
 			{/* prettier-ignore */}
 			<span className="navbar-brand mb-0 h1" id="scoreboard">
-				Current Score: {props.score}   <span>|</span>   High Score: {props.highScore}
+				Current Score: {props.score} <span>|</span> High Score: {props.highScore}
 			</span>
 		</nav>
 	);

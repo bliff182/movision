@@ -1,0 +1,15 @@
+.footer {
+	background: #343a40;
+	height: 30;
+	position: relative;
+	top: 75px;
+	color: #fff;
+	padding: 15px;
+	overflow: auto;
+	font-weight: bold;
+}
+
+#logo {
+	height: 30px;
+	width: 30px;
+}

@@ -4,7 +4,9 @@ import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 import CharacterCard from "./components/CharacterCard";
+import Footer from "./components/Footer";
 import characters from "./characters.json";
+// import logo from
 
 class App extends Component {
 	state = {
@@ -37,9 +39,9 @@ class App extends Component {
 	shuffle() {
 		for (let i = 0; i < characters.length; i++) {
 			let item = characters[i];
-			const randomNum = Math.floor(Math.random() * characters.length);
-			characters[i] = characters[randomNum];
-			characters[randomNum] = item;
+			const randomIndex = Math.floor(Math.random() * characters.length);
+			characters[i] = characters[randomIndex];
+			characters[randomIndex] = item;
 		}
 	}
 
@@ -53,7 +55,7 @@ class App extends Component {
 		return (
 			<div>
 				<Navbar score={this.state.score} highScore={this.state.highScore} />
-				<Jumbotron>Clicky Game!</Jumbotron>
+				<Jumbotron>Arrested Development - Clicky Game!</Jumbotron>
 				<Wrapper>
 					{this.state.characters.map(char => (
 						<CharacterCard
@@ -65,6 +67,7 @@ class App extends Component {
 						/>
 					))}
 				</Wrapper>
+				<Footer />
 			</div>
 		);
 	}

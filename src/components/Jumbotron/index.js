@@ -7,8 +7,8 @@ function Jumbotron(props) {
 			<div className="container">
 				<h1 className="display-4">{props.children}</h1>
 				<p className="lead">
-					This is a modified jumbotron that occupies the entire horizontal space
-					of its parent.
+					Click the characters to earn points, but don't click on any more than
+					once!
 				</p>
 			</div>
 		</div>
