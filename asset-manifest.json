@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/movision/static/css/main.59740667.chunk.css",
+    "main.js": "/movision/static/js/main.ce87399f.chunk.js",
+    "main.js.map": "/movision/static/js/main.ce87399f.chunk.js.map",
+    "runtime-main.js": "/movision/static/js/runtime-main.7ff9204d.js",
+    "runtime-main.js.map": "/movision/static/js/runtime-main.7ff9204d.js.map",
+    "static/js/2.c2105e80.chunk.js": "/movision/static/js/2.c2105e80.chunk.js",
+    "static/js/2.c2105e80.chunk.js.map": "/movision/static/js/2.c2105e80.chunk.js.map",
+    "index.html": "/movision/index.html",
+    "precache-manifest.ff38e58bf769cc7d5eb05a0a7187b90c.js": "/movision/precache-manifest.ff38e58bf769cc7d5eb05a0a7187b90c.js",
+    "service-worker.js": "/movision/service-worker.js",
+    "static/css/main.59740667.chunk.css.map": "/movision/static/css/main.59740667.chunk.css.map",
+    "static/js/2.c2105e80.chunk.js.LICENSE.txt": "/movision/static/js/2.c2105e80.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ff9204d.js",
+    "static/js/2.c2105e80.chunk.js",
+    "static/css/main.59740667.chunk.css",
+    "static/js/main.ce87399f.chunk.js"
+  ]
+}
