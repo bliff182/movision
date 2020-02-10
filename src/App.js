@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-// import "./App.css";
+import "./App.css";
 import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 import CharacterCard from "./components/CharacterCard";
 import Footer from "./components/Footer";
 import characters from "./characters.json";
-// import logo from
 
 class App extends Component {
 	state = {
@@ -35,7 +34,6 @@ class App extends Component {
 		this.shuffle();
 	};
 
-	// CHANGE THIS
 	shuffle() {
 		for (let i = 0; i < characters.length; i++) {
 			let item = characters[i];
