@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Overview
 
-This is a Single-Page Application using React and Create-React-App. Rather than code out every element individually on the page, elements are rendered as reusable components.
+This is a Single-Page Application utilizing React and Create-React-App. Rather than code out every element individually on the page, elements are rendered as reusable components. For example, the different character buttons are only coded once, as a single button component.
 
 ![Homepage](/img/screenshot.png)
 
