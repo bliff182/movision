@@ -2,8 +2,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Arrested Development Clicky Game!
 
-**Created by Mike Bither**
-
 ![Homepage](/img/screenshot.png)
 
 ## How to Play
