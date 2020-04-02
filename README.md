@@ -14,4 +14,10 @@ This is a memory game. The purpose of this game is to click on each image once, 
 
 [Check out the deployed version here!](https://bliff182.github.io/movision/)
 
+### Tools Used
+
+- React
+- Create-React-App
+- JSX
+
 **Created by Mike Bither**
