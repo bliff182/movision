@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Arrested Development Clicky Game!
 
+## Overview
+
 ![Homepage](/img/screenshot.png)
 
 ## How to Play
