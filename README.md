@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Overview
 
+This is a Single-Page Application using React and Create-React-App.
+
 ![Homepage](/img/screenshot.png)
 
 ## How to Play
